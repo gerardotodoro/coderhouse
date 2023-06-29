@@ -153,16 +153,20 @@ header{
 }
 */
 /* main*/
-/*
+
 main{
-    height: calc(100vh - 80px);
+    height: 1000px;
     width: 100%;
     background-color: #333;
     background-image: url(imagenes/ceritas.jpg);
     background-size: cover;
     background-position: center;
+    color: #0e010d;
+    margin-bottom: 0;
+    
+   
 
-}*/
+}
 /*
 .call{
     width: 70%;
@@ -253,12 +257,38 @@ main{
 
 
 /*productos*/
+/*
+.carousel-inner{
+    height: 400px;
+    width: 100%;
+}
+*/
 
-#footer_productos{
-    background-color:  rgb(0, 119, 255);
-    padding: 200px;
+
+.carousel-item{
+    height: 400px;
+    width: 100%;
 }
 
+.carousel-item img{
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+
+}
+/*
+.carousel-indicators li{
+    height: 20px;
+    width: 20px;
+    border-radius: 0%;
+    border: 2px solid green;
+}
+
+.carousel-control-prev-icon:hover{
+    transform: scale(2);
+    transition: all 0.5s;
+}
+*/
 /*ordenar la lista de contacto*/
 .list_contacto {
     float: left;
@@ -276,24 +306,27 @@ main{
     margin-bottom: 15px;
 }
 
-.list_contacto h3{
+.list_contacto h1{
     text-transform: uppercase;
     margin-bottom: 20px;
     text-decoration: underline;
     color: rgb(14, 13, 13);
+    font-family: fantasy;
+    text-decoration: underline;
 }
 
    
 .iframe_contacto{
     width: 100%;
     height:100vh;
+    margin-bottom: 0;
     
   
 }
-
+/*historia*/
 #footer_historia{
     background-color:rgb(0, 119, 255); 
-    padding: 400px;
+    padding: 100px;
 }
 
 #text_historia{
@@ -301,6 +334,17 @@ main{
     font-size: x-large;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+#text_historia h1{
+    text-align:left;
+    color:#010a0c;
+    text-decoration: solid;
+    font-family: fantasy;
+    text-decoration: underline;
+    
+   
+}
+
 
 
 .ajust_imagenes_productos{
