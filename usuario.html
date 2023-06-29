@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USUARIO</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> libreria <span>libra</span></div>
+        <nav class="navBar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="productos.html">Productos</a><li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="usuario.html">Usuario</a></li>
+
+            </ul>
+        
+        </nav>
+
+    </header>
+
+    <main class="navBar">
+        <h3 id="centrar_text">INGRESA TUS DATOS</h3> 
+        <table>
+            <form  action="enviar.php" method="post" enctype="text/plain" > 
+                <label for="">EMPRESA</label>
+                <input type="text" required><br>
+                <label for="">NOMBRE </label>
+                <input type="text" required><br>
+                <label for="">APELLIDO</label>
+                <input type="text" required><br>
+                <label for="">CUIT</label>
+                <input type="number" required><br>
+                <label for="">DOMICILIO</label>
+                <input type="text" required><br>
+                <label for="">TELEFONO</label>
+                <input type="number" required><br>
+                <label for="">EMAIL</label>
+                <input type="email" required><br>
+                <label for="">LOCALIDAD</label>
+                <input type="text" required><br>
+                <label for="">COD POSTAL</label>
+                <input type="number" required><br>
+                <label for="">PROVINCIA</label>
+                <input type="text" required><br>
+                <label for="">INGRESOS BRUTOS</label>
+                <input type="file" required><br>
+                <label for="">CONSTACIA AFIP</label>
+                <input type="file" required><br>
+                <label for="">OBSERVACIONES</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                
+                <input type="reset" value="Borrar">
+                <input type="submit">       
+                
+            </form>
+        </table>
+    </main>
+<footer id="footer_usuario">
+</footer>
+
+</body>
+</html>
