@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//clases generales
+
+
+.text_center{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(25, 35, 172);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+//bootstrap
+
+.navbar{
+    background-color: rgb(0, 119, 255) ;
+
+}
+
+//jumbotron
+
+.jumbotron{
+    background-image: url(imagenes/letter-gd6048ddd6_1280.jpg);
+    background-size: cover;
+    background-position: center ;
+    text-shadow: 0 0 5px #333;
+    border-radius: 0 ;
+    margin-bottom: 0;
+    height: 300px;
+}
+
+.jumbotron h1{
+    color:rgb(34, 19, 122) ;
+}
+
+.call{
+    display: grid;
+    place-items: center;
+}
+
+.btn-warning{
+    background-color: rgb(34, 19, 122);
+    color:blanchedalmond ;
+
+}
+
+//jumbotron fin
+
+//nosotros
+
+h2{
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+.nleft{
+background-image: url(imagenes/ceritas.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+/*header*/
+/*
+header{
+    background-color: rgb(0, 119, 255) ;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.navBar{
+    float: right;
+    
+}
+
+.navBar ul li{
+    display: inline-block;
+    margin-inline: 10px;
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+.navBar a:hover{
+    color:rgb(221, 117, 19);
+}
+
+.logo{
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(194, 40, 40);
+}
+*/
+/* main*/
+
+main{
+    height: 1000px;
+    width: 100%;
+    background-color: #333;
+    background-image: url(imagenes/ceritas.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #0e010d;
+    margin-bottom: 0;
+    
+   
+
+}
+/*
+.call{
+    width: 70%;
+    background-color: rgba(100, 149, 237);
+    float:right;
+    color: rgb(10, 10, 94);
+    border: 5px solid rgb(136, 71, 71) ;
+    padding: 15px;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.call h1{
+    color:rgb(245, 242, 242) ;
+    margin-bottom: 10px;
+}
+
+.call p{
+    margin-bottom: 20px;
+}
+
+.call a{
+    background-color: rgb(49, 74, 129);
+    color: rgb(197, 143, 143);
+    text-decoration: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.call a:hover{
+    color:rgb(221, 117, 19);
+}
+*/
+//iframe
+.iframe{
+    height: auto;
+    width: 100%
+   
+}
+
+.footer{
+    background-color: lightblue;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 110, 255);
+    text-align: center;
+    
+}
+
+.redes a{
+    color: rgb(32, 12, 121);
+    font-size: 30px; 
+    letter-spacing: 20px;
+}
+
+.redes a:hover{
+    color: rgb(221, 117, 19);
+}
+
+.subir{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 20px;
+    background-color: rgb(0, 195, 255);
+    padding: 10px;
+    box-shadow: rgb(83, 182, 182),rgb(83, 182, 182);
+}
+
+//usuario
+
+#centrar_text{
+    text-align: center;
+    font-weight: bold;
+    text-decoration:underline;
+}
+    
+#footer_usuario{
+    background-color: rgb(0, 119, 255);
+    padding: 100px;
+}
+
+
+
+//productos
+.item{
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border: 3px solid #333;
+}
+
+.item1{
+    background-image: url(imagenes/agenda.jpg);
+ }
+.item2{
+    background-image: url(imagenes/anotador.jpg);
+}
+.item3{
+    background-image: url(imagenes/crayon-g8373db7bd_1280.jpg);
+}
+.item4{
+    background-image: url(imagenes/marcador.jpg);
+}
+.item5{
+    background-image: url(imagenes/marcadores\ 2.jpg);
+}
+.item6{
+    background-image: url(imagenes/resaltador.jpg);
+}
+.item7{
+    background-image: url(imagenes/resma.jpg);
+}
+.item8{
+    background-image: url(imagenes/separadores.jpg);
+}
+.item9{
+    background-image: url(imagenes/boligrafo.jpg);
+}
+.item10{
+    background-image: url(imagenes/calculadora.jpg);
+}
+.item11{
+    background-image: url(imagenes/clips-gbb2b2b81e_1280.png);
+}
+.item12{
+    background-image: url(imagenes/tijeras.jpg);
+}
+
+
+
+
+//ordenar la lista de contacto
+.list_contacto {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.list_contacto ul{
+    list-style: none;
+    display:list-item;
+  
+}
+
+.list_contacto ul li{
+    margin-bottom: 15px;
+}
+
+.list_contacto h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: rgb(14, 13, 13);
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+   
+.iframe_contacto{
+    width: 100%;
+    height:100vh;
+    margin-bottom: 0;
+    
+  
+}
+//historia
+#footer_historia{
+    background-color:rgb(0, 119, 255); 
+    padding: 100px;
+}
+
+#text_historia{
+    text-align: left;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#text_historia h1{
+    text-align:left;
+    color:#010a0c;
+    text-decoration: solid;
+    font-family: fantasy;
+    text-decoration: underline;
+    
+   
+}
+
+
+
+.ajust_imagenes_productos{
+    height: 40vh;
+    width:100%;
+    object-fit:cover;
+
+    
+  
+
+}
