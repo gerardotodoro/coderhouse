@@ -52,46 +52,6 @@ h2 {
   background-position: center;
 }
 
-/*header*/
-/*
-header{
-    background-color: rgb(0, 119, 255) ;
-    height: 80px;
-    width: 100%;
-    padding: 20px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.navBar{
-    float: right;
-
-}
-
-.navBar ul li{
-    display: inline-block;
-    margin-inline: 10px;
-}
-
-.navBar ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-
-}
-
-.navBar a:hover{
-    color:rgb(221, 117, 19);
-}
-
-.logo{
-    float: left;
-    text-transform: uppercase;
-    font-weight: bold;
-    color:rgb(194, 40, 40);
-}
-*/
-/* main*/
 main {
   height: 1000px;
   width: 100%;
@@ -103,40 +63,6 @@ main {
   margin-bottom: 0;
 }
 
-/*
-.call{
-    width: 70%;
-    background-color: rgba(100, 149, 237);
-    float:right;
-    color: rgb(10, 10, 94);
-    border: 5px solid rgb(136, 71, 71) ;
-    padding: 15px;
-    margin: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.call h1{
-    color:rgb(245, 242, 242) ;
-    margin-bottom: 10px;
-}
-
-.call p{
-    margin-bottom: 20px;
-}
-
-.call a{
-    background-color: rgb(49, 74, 129);
-    color: rgb(197, 143, 143);
-    text-decoration: none;
-    padding: 5px 10px;
-    text-transform: uppercase;
-}
-
-.call a:hover{
-    color:rgb(221, 117, 19);
-}
-*/
 .iframe {
   height: auto;
   width: 100%;
@@ -169,7 +95,7 @@ main {
   right: 40px;
   bottom: 40px;
   font-size: 20px;
-  background-color: rgb(0, 195, 255);
+  background-color: rgb(0, 119, 255);
   padding: 10px;
   box-shadow: rgb(83, 182, 182), rgb(83, 182, 182);
 }
