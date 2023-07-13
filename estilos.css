@@ -69,50 +69,7 @@ background-size: cover;
 background-position: center;
 }
 
-/*productos*/
-.item{
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-    border: 3px solid #333;
-}
 
-.item1{
-    background-image: url(imagenes/agenda.jpg);
- }
-.item2{
-    background-image: url(imagenes/anotador.jpg);
-}
-.item3{
-    background-image: url(imagenes/crayon-g8373db7bd_1280.jpg);
-}
-.item4{
-    background-image: url(imagenes/marcador.jpg);
-}
-.item5{
-    background-image: url(imagenes/marcadores\ 2.jpg);
-}
-.item6{
-    background-image: url(imagenes/resaltador.jpg);
-}
-.item7{
-    background-image: url(imagenes/resma.jpg);
-}
-.item8{
-    background-image: url(imagenes/separadores.jpg);
-}
-.item9{
-    background-image: url(imagenes/boligrafo.jpg);
-}
-.item10{
-    background-image: url(imagenes/calculadora.jpg);
-}
-.item11{
-    background-image: url(imagenes/clips-gbb2b2b81e_1280.png);
-}
-.item12{
-    background-image: url(imagenes/tijeras.jpg);
-}
 /*header*/
 /*
 header{
@@ -257,38 +214,53 @@ main{
 
 
 /*productos*/
-/*
-.carousel-inner{
-    height: 400px;
-    width: 100%;
-}
-*/
-
-
-.carousel-item{
-    height: 400px;
-    width: 100%;
-}
-
-.carousel-item img{
+.item{
     background-position: center;
     background-size: cover;
-    margin: 0;
-
-}
-/*
-.carousel-indicators li{
-    height: 20px;
-    width: 20px;
-    border-radius: 0%;
-    border: 2px solid green;
+    height: 200px;
+    border: 3px solid #333;
 }
 
-.carousel-control-prev-icon:hover{
-    transform: scale(2);
-    transition: all 0.5s;
+.item1{
+    background-image: url(imagenes/agenda.jpg);
+ }
+.item2{
+    background-image: url(imagenes/anotador.jpg);
 }
-*/
+.item3{
+    background-image: url(imagenes/crayon-g8373db7bd_1280.jpg);
+}
+.item4{
+    background-image: url(imagenes/marcador.jpg);
+}
+.item5{
+    background-image: url(imagenes/marcadores\ 2.jpg);
+}
+.item6{
+    background-image: url(imagenes/resaltador.jpg);
+}
+.item7{
+    background-image: url(imagenes/resma.jpg);
+}
+.item8{
+    background-image: url(imagenes/separadores.jpg);
+}
+.item9{
+    background-image: url(imagenes/boligrafo.jpg);
+}
+.item10{
+    background-image: url(imagenes/calculadora.jpg);
+}
+.item11{
+    background-image: url(imagenes/clips-gbb2b2b81e_1280.png);
+}
+.item12{
+    background-image: url(imagenes/tijeras.jpg);
+}
+
+
+
+
 /*ordenar la lista de contacto*/
 .list_contacto {
     float: left;
