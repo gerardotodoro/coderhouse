@@ -89,7 +89,7 @@ main{
     height: 1000px;
     width: 100%;
     background-color: #333;
-    background-image: url(imagenes/ceritas.jpg);
+    background-image: url(imagenes/historia.jpg);
     background-size: cover;
     background-position: center;
     color: #0e010d;
@@ -122,16 +122,6 @@ main{
 
 .redes a:hover{
     color: rgb(221, 117, 19);
-}
-
-.subir{
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    font-size: 20px;
-    background-color: $color2;
-    padding: 10px;
-    box-shadow: rgb(83, 182, 182),rgb(83, 182, 182);
 }
 
 //usuario
@@ -199,7 +189,7 @@ main{
 
 //ordenar la lista de contacto
 .list_contacto {
-    float: left;
+    text-align: center;
     font-family: $font-family2;
     font-size: 20px;
 }
