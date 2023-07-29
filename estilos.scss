@@ -132,10 +132,6 @@ main{
     text-decoration:underline;
 }
     
-#footer_usuario{
-    background-color: $color2;
-    padding: 100px;
-}
 
 
 
@@ -227,20 +223,17 @@ main{
     padding: 100px;
 }
 
-#text_historia{
+.text_historia{
     text-align: left;
-    font-size: x-large;
+    font-size:larger;
     font-family:$font-family4;
 }
 
-#text_historia h1{
-    text-align:left;
-    color:#010a0c;
+.text_historia h1{
     text-decoration: solid;
     font-family: $font-family3;
     text-decoration: underline;
-    
-   
+
 }
 
 
